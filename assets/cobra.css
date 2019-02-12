@@ -1,0 +1,10 @@
+img.logo {
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4) !important;
+}
+
+.markdown p,
+.markdown pre,
+.markdown ul {
+    text-align: left
+}
