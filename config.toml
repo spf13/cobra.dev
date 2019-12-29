@@ -65,5 +65,5 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         [languages.en.params]
             description  = "Website Description"   # Max 160 characters show in search results
-            footerText   = "Viper.dev by [spf13](https://spf13.com) using [**Introduction**](https://github.com/vickylai/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/)."
+            footerText   = "Cobra.dev by [spf13](https://spf13.com) using [**Introduction**](https://github.com/vickylai/hugo-theme-introduction/) theme for [Hugo](http://gohugo.io/)."
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
