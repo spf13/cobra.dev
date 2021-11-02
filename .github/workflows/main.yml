@@ -16,7 +16,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-
+      with:
+        submodules: true
+        
     # Fetch Hugo to Firebase docker image
     - uses: spf13/Hugo-On-Fire@master
       env:
