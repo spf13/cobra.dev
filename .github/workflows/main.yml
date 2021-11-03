@@ -31,7 +31,7 @@ jobs:
       with:
         node-version: '14'
     
-    - run: npm install -g postcss postcss-cli
+    - run: npm install -g postcss postcss-cli autoprefixer
         
     - run: hugo
     
