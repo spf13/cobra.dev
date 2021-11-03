@@ -1,6 +1,6 @@
 # This is a simple workflow to build a Hugo site and then deploy it on Firebase Hosting 
 
-name: Set Hugo-On-Fire
+name: Hugo deploy to Firebase
 
 # Triggers when any commit is pushed on Master
 on:
@@ -18,8 +18,27 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: true
+        fetch-depth: 0
         
-    # Fetch Hugo to Firebase docker image
-    - uses: spf13/Hugo-On-Fire@master
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.89.0'
+        extended: true        
+        
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+        
+    - run: hugo --minify
+    
+    - uses: lowply/deploy-firebase@v0.0.5
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        FIREBASE_PROJECT: "spf13-project-hosting"
+ 
+    # Fetch Hugo to Firebase docker image
+#    - uses: spf13/Hugo-On-Fire@master
+#      env:
+#        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
