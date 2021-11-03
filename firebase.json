@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "cobra",
     "public": "public",
     "ignore": [
       "firebase.json",
