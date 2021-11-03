@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "spf13-project-hosting"
+  },
+  "targets": {
+    "spf13-project-hosting": {
+      "hosting": {
+        "cobra": [
+          "cobra-dev"
+        ]
+      }
+    }
   }
 }
