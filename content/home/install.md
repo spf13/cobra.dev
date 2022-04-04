@@ -3,11 +3,10 @@ title: "Install"
 weight: 20
 ---
 
-Using Cobra is easy. First, use `go get` to install the latest version
-of the library. This command will install the `cobra` generator executable
-along with the library and its dependencies:
+Using Cobra is easy. Use `go get` to install the latest version
+of the library and its dependencies:
 
-    go get -u github.com/spf13/cobra/cobra
+    go get -u github.com/spf13/cobra
 
 Next, include Cobra in your application:
 
