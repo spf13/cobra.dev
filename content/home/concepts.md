@@ -33,12 +33,12 @@ have children commands and optionally run an action.
 
 In the example above, 'server' is the command.
 
-[More about cobra.Command](https://godoc.org/github.com/spf13/cobra#Command)
+[More about cobra.Command](https://pkg.go.dev/github.com/spf13/cobra?utm_source=godoc#Command)
 
 ## Flags
 
 A flag is a way to modify the behavior of a command. Cobra supports
-fully POSIX-compliant flags as well as the Go [flag package](https://golang.org/pkg/flag/).
+fully POSIX-compliant flags as well as the Go [flag package](https://pkg.go.dev/github.com/spf13/cobra).
 A Cobra command can define flags that persist through to children commands
 and flags that are only available to that command.
 
