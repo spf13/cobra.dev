@@ -64,3 +64,13 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# jetbrains's editor
+.fleet/
+.idea/
+
+# nix system temp file
+*.swap
+*.swp
+*.tmp
+.DS_Store

@@ -22,4 +22,4 @@ It was created by Go team member, [spf13](https://twitter.com/spf13) for [hugo](
 * Automatically generated man pages for your application
 * Command aliases so you can change things without breaking them
 * The flexibility to define your own help, usage, etc.
-* Optional tight integration with [viper](http://github.com/spf13/viper) for 12-factor apps
+* Optional tight integration with [viper](https://github.com/spf13/viper) for 12-factor apps

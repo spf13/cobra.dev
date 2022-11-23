@@ -36,7 +36,7 @@ func main() {
 Cobra provides its own program that will create your application and add any
 commands you want. It's the easiest way to incorporate Cobra into your application.
 
-[Here](https://github.com/spf13/cobra/blob/master/cobra/README.md) you can find more information about it.
+[Here](https://github.com/spf13/cobra/blob/main/cobra/README.md) you can find more information about it.
 
 ## Using the Cobra Library
 
@@ -579,10 +579,10 @@ Run 'kubectl help' for usage.
 
 Cobra can generate documentation based on subcommands, flags, etc. in the following formats:
 
-- [Markdown](doc/md_docs.md)
-- [ReStructured Text](doc/rest_docs.md)
-- [Man Page](doc/man_docs.md)
+- [Markdown](https://github.com/spf13/cobra/blob/main/doc/md_docs.md)
+- [ReStructured Text](https://github.com/spf13/cobra/blob/main/doc/reset_docs.md)
+- [Man Page](https://github.com/spf13/cobra/blob/main/doc/man_docs.md)
 
 ## Generating bash completions
 
-Cobra can generate a bash-completion file. If you add more information to your command, these completions can be amazingly powerful and flexible.  Read more about it in [Bash Completions](bash_completions.md).
+Cobra can generate a bash-completion file. If you add more information to your command, these completions can be amazingly powerful and flexible.  Read more about it in [Bash Completions](https://github.com/spf13/cobra/blob/main/bash_completions.md).
