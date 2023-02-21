@@ -14,7 +14,7 @@ It was created by Go team member, [spf13](https://twitter.com/spf13) for [hugo](
 * Fully POSIX-compliant flags (including short & long versions)
 * Nested subcommands
 * Global, local and cascading flags
-* Easy generation of applications & commands with `cobra init appname` & `cobra add cmdname`
+* Easy generation of applications & commands with `cobra-cli init appname` & `cobra-cli add cmdname`
 * Intelligent suggestions (`app srver`... did you mean `app server`?)
 * Automatic help generation for commands and flags
 * Automatic help flag recognition of `-h`, `--help`, etc.
