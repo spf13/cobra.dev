@@ -247,6 +247,27 @@ rootCmd.Flags().StringVarP(&Region, "region", "r", "", "AWS region (required)")
 rootCmd.MarkFlagRequired("region")
 ```
 
+### Custom flag variable names
+
+You can change the name of the variable displayed after a flag in the help output
+by using a special backtick syntax in the flag usage. This works for non-boolean
+flag types. By default, the variable name is an educated guess based on the flag
+type.
+
+```go
+rootCmd.Flags().String("normalflag", "", "unchanged variable name")
+rootCmd.Flags().String("fancyflag", "", "enter a `fancyvalue` for this flag")
+```
+
+This results in flag help output like:
+
+```
+Flags:
+      --fancyflag fancyvalue   enter a fancyvalue for this flag
+  -h, --help                   help for test
+      --normalflag string      unchanged variable name
+```
+
 ## Positional and Custom Arguments
 
 Validation of positional arguments can be specified using the `Args` field
