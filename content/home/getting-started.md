@@ -585,4 +585,4 @@ Cobra can generate documentation based on subcommands, flags, etc. in the follow
 
 ## Generating bash completions
 
-Cobra can generate a bash-completion file. If you add more information to your command, these completions can be amazingly powerful and flexible.  Read more about it in [Bash Completions](bash_completions.md).
+Cobra can generate a bash-completion file. If you add more information to your command, these completions can be amazingly powerful and flexible.  Read more about it in [Bash Completions](https://cobra.dev/docs/how-to-guides/shell-completion/).
