@@ -579,9 +579,9 @@ Run 'kubectl help' for usage.
 
 Cobra can generate documentation based on subcommands, flags, etc. in the following formats:
 
-- [Markdown](doc/md_docs.md)
-- [ReStructured Text](doc/rest_docs.md)
-- [Man Page](doc/man_docs.md)
+- [Markdown](https://github.com/spf13/cobra/blob/main/site/content/docgen/md.md)
+- [ReStructured Text](https://github.com/spf13/cobra/blob/main/site/content/docgen/rest.md)
+- [Man Page](https://github.com/spf13/cobra/blob/main/site/content/docgen/man.md)
 
 ## Generating bash completions
 
